@@ -1,0 +1,39 @@
+actions:
+- Tool
+authors: "Edouard Renard, R\xE9mi Lux <r.lux@niryo.com>"
+brief: ''
+bugtracker: ''
+depends:
+- trajectory_msgs
+- actionlib_msgs
+- niryo_robot_hardware_interface
+- control_msgs
+- ros_controllers
+- sensor_msgs
+- python3-catkin-lint
+- rosbridge_server
+- niryo_robot_msgs
+- roslint
+- message_generation
+- moveit_msgs
+- actionlib
+- tf2_web_republisher
+- python-numpy
+- moveit
+- message_runtime
+- catkin
+- geometry_msgs
+- niryo_robot_utils
+- std_msgs
+description: Provides functionalities to control end-effectors and accessories for
+  Niryo Robot
+license: GPLv3
+maintainers: Valentin Pitre <v.pitre@niryo.com>
+msgs:
+- TCP
+- ToolCommand
+package_type: package
+repo_url: ''
+srvs:
+- SetTCP
+url: ''
